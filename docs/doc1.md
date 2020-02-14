@@ -1,5 +1,5 @@
 
-#Installing a Standalone Fail-Secure Electric Lock#
+# *Installing a Standalone Fail-Secure Electric Lock* #
 
 **You will need the following:**
 
@@ -30,7 +30,7 @@ Kisi Controller Pro does NOT support AC wiring, so make sure the lock can work o
  * Be sure that you do **NOT** connect the door lock to GND and NC (Normally Closed). Such a configuration will burn out the fail-secure lock over time.
 
 *STEP 2*
- 
+
  * Configure the jumper wire to run from GND (Ground) to COM (Common).
 
 *STEP 3*
@@ -38,7 +38,7 @@ Kisi Controller Pro does NOT support AC wiring, so make sure the lock can work o
  * Next, connect the power. Black wire to GND (Ground) and white wire to 24V. Once complete, a blue light should come on.
 
 *STEP 4*
- 
+
  * Finally, you will plug in your ethernet cable. You should see a green blinking light on the top right hand corner of the board. This indicates that the Kisi Controller Pro is online.
 
 ###IS THERE SOMETHING WRONG?###
