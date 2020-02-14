@@ -1,5 +1,5 @@
 
-# *Installing a Standalone Fail-Secure Electric Lock* #
+# Installing a Standalone Fail-Secure Electric Lock #
 
 **You will need the following:**
 
@@ -17,10 +17,13 @@ Example: If you have two electric strikes that draw 12V/2 Amps from Kisi Pro, yo
 
 Kisi Controller Pro does NOT support AC wiring, so make sure the lock can work on DC.
 
+Here's a short video on it:
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AR7dXvml0TE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-##SEQUENCE FOR WIRING KISI CONTROLLER PRO TO A FAIL-SECURE DOOR LOCK##
+
+## SEQUENCE FOR WIRING KISI CONTROLLER PRO TO A FAIL-SECURE DOOR LOCK ##
 
 ![Wiring Your Kisi Controller to a Fail-Secure Lock](https://help.kisi.io/hc/article_attachments/360052318854/Standalone_fail_secure_electric_lock.PNG)
 
@@ -41,6 +44,6 @@ Kisi Controller Pro does NOT support AC wiring, so make sure the lock can work o
 
  * Finally, you will plug in your ethernet cable. You should see a green blinking light on the top right hand corner of the board. This indicates that the Kisi Controller Pro is online.
 
-###IS THERE SOMETHING WRONG?###
+### IS THERE SOMETHING WRONG? ###
 
 If the light on the board is not green, or have any other issues, please refer to this [troubleshooting guide.](https://help.kisi.io/hc/en-us/articles/115009339068-Network-Settings-for-Controller-Pro-)
