@@ -1,8 +1,4 @@
----
-id: doc1
-title: Latin-ish
-sidebar_label: Example Page
----
+
 #Installing a Standalone Fail-Secure Electric Lock#
 
 **You will need the following:**
@@ -22,6 +18,7 @@ Example: If you have two electric strikes that draw 12V/2 Amps from Kisi Pro, yo
 Kisi Controller Pro does NOT support AC wiring, so make sure the lock can work on DC.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AR7dXvml0TE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ##SEQUENCE FOR WIRING KISI CONTROLLER PRO TO A FAIL-SECURE DOOR LOCK##
 
