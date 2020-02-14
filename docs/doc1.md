@@ -3,27 +3,47 @@ id: doc1
 title: Latin-ish
 sidebar_label: Example Page
 ---
+#Installing a Standalone Fail-Secure Electric Lock#
 
-Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
+**You will need the following:**
 
-## Lorem
+* Kisi Controller Pro (comes with a 24V Universal AC power supply)- **Included** in the Kisi Controller Pack
+* 12 or 24V DC [electric strike or magnetic lock](https://www.getkisi.com/guides/electronic-locks) - **NOT** Included
+* Ethernet Cable - **NOT** Included
+* Low Voltage Wires - **NOT** Included
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.
+**IMPORTANT**
 
-## Mauris In Code
+The Kisi Controller Pro only supplies up to 4 Amps total for the door locks that are drawing power from the circuit board. If you wish to power up more doors, DO NOT exceed a total of 4 Amps for each Kisi Controller Pro.
+Example: If you have two electric strikes that draw 12V/2 Amps from Kisi Pro, you CANNOT power anymore locks from the circuit board. You can still wire another two door locks to the Kisi Controller Pro, but only from their own separate power supply and as dry contacts.
 
-```
-Mauris vestibulum ullamcorper nibh, ut semper purus pulvinar ut. Donec volutpat orci sit amet mauris malesuada, non pulvinar augue aliquam. Vestibulum ultricies at urna ut suscipit. Morbi iaculis, erat at imperdiet semper, ipsum nulla sodales erat, eget tincidunt justo dui quis justo. Pellentesque dictum bibendum diam at aliquet. Sed pulvinar, dolor quis finibus ornare, eros odio facilisis erat, eu rhoncus nunc dui sed ex. Nunc gravida dui massa, sed ornare arcu tincidunt sit amet. Maecenas efficitur sapien neque, a laoreet libero feugiat ut.
-```
+**ALSO NOTE:**
 
-## Nulla
+Kisi Controller Pro does NOT support AC wiring, so make sure the lock can work on DC.
 
-Nulla facilisi. Maecenas sodales nec purus eget posuere. Sed sapien quam, pretium a risus in, porttitor dapibus erat. Sed sit amet fringilla ipsum, eget iaculis augue. Integer sollicitudin tortor quis ultricies aliquam. Suspendisse fringilla nunc in tellus cursus, at placerat tellus scelerisque. Sed tempus elit a sollicitudin rhoncus. Nulla facilisi. Morbi nec dolor dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras et aliquet lectus. Pellentesque sit amet eros nisi. Quisque ac sapien in sapien congue accumsan. Nullam in posuere ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin lacinia leo a nibh fringilla pharetra.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AR7dXvml0TE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Orci
+##SEQUENCE FOR WIRING KISI CONTROLLER PRO TO A FAIL-SECURE DOOR LOCK##
 
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin venenatis lectus dui, vel ultrices ante bibendum hendrerit. Aenean egestas feugiat dui id hendrerit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur in tellus laoreet, eleifend nunc id, viverra leo. Proin vulputate non dolor vel vulputate. Curabitur pretium lobortis felis, sit amet finibus lorem suscipit ut. Sed non mollis risus. Duis sagittis, mi in euismod tincidunt, nunc mauris vestibulum urna, at euismod est elit quis erat. Phasellus accumsan vitae neque eu placerat. In elementum arcu nec tellus imperdiet, eget maximus nulla sodales. Curabitur eu sapien eget nisl sodales fermentum.
+![Wiring Your Kisi Controller to a Fail-Secure Lock](https://help.kisi.io/hc/article_attachments/360052318854/Standalone_fail_secure_electric_lock.PNG)
 
-## Phasellus
+*STEP 1*
 
-Phasellus pulvinar ex id commodo imperdiet. Praesent odio nibh, sollicitudin sit amet faucibus id, placerat at metus. Donec vitae eros vitae tortor hendrerit finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque vitae purus dolor. Duis suscipit ac nulla et finibus. Phasellus ac sem sed dui dictum gravida. Phasellus eleifend vestibulum facilisis. Integer pharetra nec enim vitae mattis. Duis auctor, lectus quis condimentum bibendum, nunc dolor aliquam massa, id bibendum orci velit quis magna. Ut volutpat nulla nunc, sed interdum magna condimentum non. Sed urna metus, scelerisque vitae consectetur a, feugiat quis magna. Donec dignissim ornare nisl, eget tempor risus malesuada quis.
+ * Wire one of the four relays to the fail-secure lock on the door. This is a wet contact relay which will require positive wires to run to the 12V or 24V (Depending on your lock) and negative to NO (Normally Open).
+ * Be sure that you do **NOT** connect the door lock to GND and NC (Normally Closed). Such a configuration will burn out the fail-secure lock over time.
+
+*STEP 2*
+ 
+ * Configure the jumper wire to run from GND (Ground) to COM (Common).
+
+*STEP 3*
+
+ * Next, connect the power. Black wire to GND (Ground) and white wire to 24V. Once complete, a blue light should come on.
+
+*STEP 4*
+ 
+ * Finally, you will plug in your ethernet cable. You should see a green blinking light on the top right hand corner of the board. This indicates that the Kisi Controller Pro is online.
+
+###IS THERE SOMETHING WRONG?###
+
+If the light on the board is not green, or have any other issues, please refer to this [troubleshooting guide.](https://help.kisi.io/hc/en-us/articles/115009339068-Network-Settings-for-Controller-Pro-)
