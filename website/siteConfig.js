@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
+  title: 'Ilinca & Kisi', // Title for your website.
+  tagline: 'Edited documentation',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -39,9 +39,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+
   ],
 
   // If you have users set above, you add it here:
@@ -54,8 +52,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#a41b33',
-    secondaryColor: '#721223',
+    primaryColor: '#5465F3',
+    secondaryColor: '#5062F3',
   },
 
   /* Custom fonts for website */
