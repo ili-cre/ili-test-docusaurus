@@ -1,4 +1,4 @@
-# Installing an External Power Supply & Fail Safe Electric Lock With REX & Motion Sensor #
+# Installing an External Power Supply & Fail Safe Electric Lock #
 
 **You will need:**
 
@@ -10,25 +10,8 @@
 * Push to exit button/motion sensor - **NOT** Included
 * Keypad - **NOT** Included
 
-! (https://help.kisi.io/hc/article_attachments/360053218093/REX_and_Motion_Sensor.png)
+*NOTE*
 
-Here's a short video on it:
+The wiring should also run to a keypad outside the space and a REX (Request to Exit) inside the space. A keypad should be used as a back-up mode of access in case internet goes down. A REX allows an occupant to exit the door without using Kisi, and would refer to either a motion sensor or a push-to-exit button.  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/H0vQgyN_pN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## CONNECTION SEQUENCE ##
-
-*STEP 1*
-Connect the negative (-) lead from the Maglock to the Normally Closed (NC) connection on the 'Push to Exit' button.
-
-*STEP 2*
-Connect the Common (COM) lead on your 'Push to Exit' to the Common (COM) connection of the Motion Sensor.
-
-*STEP 3*
-Connect the Normally Closed (NC) connection of the Motion Sensor to the Common (COM) connection of the Power Supply's output.
-
-*STEP 4*
-Connect the positive (+) lead from the Maglock to the Normally Closed (NC) output connection of the Power Supply's output.
-
-*STEP 5*
-Connect the low voltage wiring from Common (COM) on the Kisi controller to Ground (GND) on the Power Supply's input, and Normally Open (NO) on the Kisi controller to In (IN) on the Power Supply's input.
+![Installation Diagram for an External Powered Fail Safe electric Lock] (https://help.kisi.io/hc/article_attachments/360011143214/Screen_Shot_2018-08-24_at_9.34.06_AM.png)
