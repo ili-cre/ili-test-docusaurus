@@ -1,14 +1,34 @@
----
-id: doc3
-title: This is document number 3
----
+# Installing an External Power Supply & Fail Safe Electric Lock With REX & Motion Sensor #
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+**You will need:**
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
+* Kisi Controller Pro (comes with a 24V Universal AC power supply)- **Included** in the Kisi Controller Pack
+* 12 or 24V DC [fail safe electric strike or magnetic lock] (https://www.getkisi.com/guides/electronic-locks) - **NOT** Included
+* Ethernet Cable - **NOT** Included
+* Low Voltage Wires - **NOT** Included
+* [External Power Supply] (https://www.altronix.com/products/AL600ULACM) for lock - **NOT** Included
+* Push to exit button/motion sensor - **NOT** Included
+* Keypad - **NOT** Included
 
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
+! (https://help.kisi.io/hc/article_attachments/360053218093/REX_and_Motion_Sensor.png)
 
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
+Here's a short video on it:
 
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H0vQgyN_pN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## CONNECTION SEQUENCE ##
+
+*STEP 1*
+Connect the negative (-) lead from the Maglock to the Normally Closed (NC) connection on the 'Push to Exit' button.
+
+*STEP 2*
+Connect the Common (COM) lead on your 'Push to Exit' to the Common (COM) connection of the Motion Sensor.
+
+*STEP 3*
+Connect the Normally Closed (NC) connection of the Motion Sensor to the Common (COM) connection of the Power Supply's output.
+
+*STEP 4*
+Connect the positive (+) lead from the Maglock to the Normally Closed (NC) output connection of the Power Supply's output.
+
+*STEP 5*
+Connect the low voltage wiring from Common (COM) on the Kisi controller to Ground (GND) on the Power Supply's input, and Normally Open (NO) on the Kisi controller to In (IN) on the Power Supply's input.
