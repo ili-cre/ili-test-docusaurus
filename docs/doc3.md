@@ -8,10 +8,10 @@ Read [this before you install the Kisi Controller.](https://help.kisi.io/hc/en-u
 **You will need:**
 
 * Kisi Controller Pro (comes with a 24V Universal AC power supply)- **Included** in the Kisi Controller Pack
-* 12 or 24V DC [fail safe electric strike or magnetic lock] (https://www.getkisi.com/guides/electronic-locks) - **NOT** Included
+* 12 or 24V DC [fail safe electric strike or magnetic lock](https://www.getkisi.com/guides/electronic-locks) - **NOT** Included
 * Ethernet Cable - **NOT** Included
 * Low Voltage Wires - **NOT** Included
-* [External Power Supply] (https://www.altronix.com/products/AL600ULACM) for lock - **NOT** Included
+* [External Power Supply](https://www.altronix.com/products/AL600ULACM) for lock - **NOT** Included
 * Push to exit button/motion sensor - **NOT** Included
 * Keypad - **NOT** Included
 
