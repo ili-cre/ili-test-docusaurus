@@ -3,6 +3,8 @@ id: doc3
 title: Installing an External Power Supply & Fail Safe Electric Lock With REX & Motion Sensor
 ---
 
+Read [this before you install the Kisi Controller.](https://help.kisi.io/hc/en-us/articles/115009576508-Before-Installing-Kisi-)
+
 **You will need:**
 
 * Kisi Controller Pro (comes with a 24V Universal AC power supply)- **Included** in the Kisi Controller Pack
@@ -19,7 +21,9 @@ Here's a short video on it:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H0vQgyN_pN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## CONNECTION SEQUENCE ##
+
+
+**SEQUENCE**
 
 *STEP 1*
 

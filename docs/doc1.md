@@ -3,6 +3,9 @@ id: doc1
 title: Installing a Standalone Fail-Secure Electric Lock
 ---
 
+Read [this before you install the Kisi Controller.](https://help.kisi.io/hc/en-us/articles/115009576508-Before-Installing-Kisi-)
+
+
 **You will need:**
 
 * Kisi Controller Pro (comes with a 24V Universal AC power supply)- **Included** in the Kisi Controller Pack
@@ -21,7 +24,9 @@ Example: If you have two electric strikes that draw 12V/2 Amps from Kisi Pro, yo
 
 Kisi Controller Pro does NOT support AC wiring, so make sure the lock can work on DC.
 
-Here's a short video on the wiring:
+![Wiring Your Kisi Controller to a Fail-Secure Lock](https://help.kisi.io/hc/article_attachments/360052318854/Standalone_fail_secure_electric_lock.PNG)
+
+Here's a short video:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AR7dXvml0TE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -29,7 +34,6 @@ Here's a short video on the wiring:
 
 **SEQUENCE**
 
-![Wiring Your Kisi Controller to a Fail-Secure Lock](https://help.kisi.io/hc/article_attachments/360052318854/Standalone_fail_secure_electric_lock.PNG)
 
 *STEP 1*
 
