@@ -1,8 +1,7 @@
 ---
 id: doc1
-title: Fail Secure El Lock
+title: Installing a Standalone Fail-Secure Electric Lock
 ---
-# Installing a Standalone Fail-Secure Electric Lock #
 
 **You will need:**
 

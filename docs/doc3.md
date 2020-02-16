@@ -1,9 +1,7 @@
 ---
 id: doc3
-title: External Power Supply Fail Safe electric Lock with REX & motion Sensor
+title: Installing an External Power Supply & Fail Safe Electric Lock With REX & Motion Sensor
 ---
-
-# Installing an External Power Supply & Fail Safe Electric Lock With REX & Motion Sensor #
 
 **You will need:**
 
