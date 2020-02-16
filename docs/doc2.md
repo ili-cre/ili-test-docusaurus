@@ -1,4 +1,4 @@
-# Installing an External Power Supply & Fail Safe Electric Lock With REX & Motion Sensor
+# Installing an External Power Supply & Fail Safe Electric Lock With REX & Motion Sensor #
 
 **You will need:**
 
