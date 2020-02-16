@@ -43,7 +43,7 @@ Wire your Request to Exit (REX) to **IN1** (Input 1) and **GND** (Ground) in the
 
 *STEP 4*
 
-Connect the external power supply to a [fire alarm system.] (https://help.kisi.io/hc/en-us/articles/360037151673-Connecting-Kisi-to-Fire-Alarms) This is in accordance to safety code - when the fire alarm triggers, power to the Kisi Controller Pro will be interrupted and the doors will automatically unlock.  Kisi recommends connecting fire alarms to the external power supply as that unit has its own fire alarm control panel (FACP) which shuts down the locks when the fire alarm is triggered.
+Connect the external power supply to a [fire alarm system.](https://help.kisi.io/hc/en-us/articles/360037151673-Connecting-Kisi-to-Fire-Alarms) This is in accordance to safety code - when the fire alarm triggers, power to the Kisi Controller Pro will be interrupted and the doors will automatically unlock.  Kisi recommends connecting fire alarms to the external power supply as that unit has its own fire alarm control panel (FACP) which shuts down the locks when the fire alarm is triggered.
 
 *STEP 5*
 
