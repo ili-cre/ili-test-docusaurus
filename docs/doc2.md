@@ -18,17 +18,17 @@ Here's a short video on it:
 
 ## CONNECTION SEQUENCE ##
 
-*1.*
-First, connect the negative (-) lead from the Maglock to the Normally Closed (NC) connection on the 'Push to Exit' button.
+*STEP 1*
+Connect the negative (-) lead from the Maglock to the Normally Closed (NC) connection on the 'Push to Exit' button.
 
-*2.*
-Next, connect the Common (COM) lead on your 'Push to Exit' to the Common (COM) connection of the Motion Sensor.
+*STEP 2*
+Connect the Common (COM) lead on your 'Push to Exit' to the Common (COM) connection of the Motion Sensor.
 
-*3.*
-Next, connect the Normally Closed (NC) connection of the Motion Sensor to the Common (COM) connection of the Power Supply's output.
+*STEP 3*
+Connect the Normally Closed (NC) connection of the Motion Sensor to the Common (COM) connection of the Power Supply's output.
 
-*4.*
-Next, you will connect the positive (+) lead from the Maglock to the Normally Closed (NC) output connection of the Power Supply's output.
+*STEP 4*
+Connect the positive (+) lead from the Maglock to the Normally Closed (NC) output connection of the Power Supply's output.
 
-*5.*
-Lastly, connect the low voltage wiring from Common (COM) on the Kisi controller to Ground (GND) on the Power Supply's input, and Normally Open (NO) on the Kisi controller to In (IN) on the Power Supply's input.
+*STEP 5*
+Connect the low voltage wiring from Common (COM) on the Kisi controller to Ground (GND) on the Power Supply's input, and Normally Open (NO) on the Kisi controller to In (IN) on the Power Supply's input.
