@@ -1,3 +1,8 @@
+---
+id: doc2
+title: External Power Supply Fail Safe El Lock
+---
+
 # Installing an External Power Supply & Fail Safe Electric Lock #
 
 **You will need:**
