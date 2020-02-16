@@ -33,17 +33,17 @@ Here's a short video on the wiring:
 
 *STEP 1*
 
- * Wire one of the four relays to the fail-secure lock on the door. This is a wet contact relay which will require positive wires to run to the 12V or 24V (Depending on your lock) and negative to NO (Normally Open).
+ * Wire one of the four relays to the fail-secure lock on the door. This is a wet contact relay which will require positive wires to run to the 12V or 24V (Depending on your lock) and negative to **NO** (Normally Open).
 
  * Be sure that you do **NOT** connect the door lock to GND and NC (Normally Closed). Such a configuration will burn out the fail-secure lock over time.
 
 *STEP 2*
 
- * Configure the jumper wire to run from GND (Ground) to COM (Common).
+ * Configure the jumper wire to run from **GND** (Ground) to **COM** (Common).
 
 *STEP 3*
 
- * Next, connect the power. Black wire to GND (Ground) and white wire to 24V. Once complete, a blue light should come on.
+ * Next, connect the power. Black wire to **GND** (Ground) and white wire to 24V. Once complete, a blue light should come on.
 
 *STEP 4*
 
